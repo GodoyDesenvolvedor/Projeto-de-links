@@ -10,7 +10,7 @@
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.02);
-  --hightlight-color: rgba(255, 255, 255, 0.2);
+  --highlight-color: rgba(255, 255, 255, 0.2);
   --switch-bg-url: url(./assets/moon-star.svg);
 }
 
@@ -87,7 +87,7 @@ body * {
 }
 
 #switch button:hover {
-  outline: 8px solid var(--hightlight-color);
+  outline: 8px solid var(--highlight-color);
 }
 
 #switch span {
@@ -159,7 +159,7 @@ ul li a:hover {
 }
 
 #social-links a:hover {
-  background: var(--hightlight-color);
+  background: var(--highlight-color);
 }
 
 footer {
@@ -169,7 +169,7 @@ footer {
 }
 
 /* media queries */
-@media(min-width: 700px) {
+@media (min-width: 700px) {
   :root {
     --bg-url: url(./assets/bg-desktop.jpg);
   }
@@ -180,20 +180,20 @@ footer {
 }
 
 /* animation */
-@keyframes slide-in{
-  from{
+@keyframes slide-in {
+  from {
     left: 0;
   }
-  to{
+  to {
     left: 50%;
   }
 }
 
-@keyframes slide-back{
-  from{
+@keyframes slide-back {
+  from {
     left: 50%;
   }
-  to{
+  to {
     left: 0;
   }
 }
